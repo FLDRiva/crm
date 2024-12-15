@@ -1,0 +1,39 @@
+.container-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container-input .login-input {
+  padding: 15px;
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #e5e5e5;
+  border: 1px solid rgba(128, 128, 128, 0.2784313725);
+  border-radius: 4%;
+  box-shadow: 5px 6px 5px -4px rgba(5, 5, 5, 0.48);
+  transition: all 0.4s ease-in-out;
+  width: 450px;
+}
+@media (max-width: 767px) {
+  .container-input .login-input {
+    width: 360px;
+  }
+}
+@media (max-width: 400px) {
+  .container-input .login-input {
+    width: 325px;
+  }
+}
+.container-input .login-input input {
+  flex-grow: 2;
+  width: 90%;
+  outline: none;
+  border: none;
+  background-color: #e5e5e5;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}/*# sourceMappingURL=input.css.map */
